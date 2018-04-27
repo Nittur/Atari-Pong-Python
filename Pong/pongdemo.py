@@ -63,7 +63,7 @@ resume = True # resume from previous checkpoint?
 # model initialization
 D = 80 * 80 # input dimensionality: 80x80 grid (the pong world)
 if resume:
-  model = pickle.load(open('save.p', 'rb')) #load from pickled checkpoint
+  model = pickle.load(open('Gen16.p', 'rb')) #load from pickled checkpoint
 else:
   model = {} #initialize model 
   #rand returns a sample (or samples) from the standard normal distribution
